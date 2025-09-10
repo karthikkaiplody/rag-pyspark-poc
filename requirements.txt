@@ -1,0 +1,11 @@
+pyspark
+langchain
+langchain_community
+langchain_chroma
+langchain_huggingface
+langchain-text-splitters
+chromadb
+sentence-transformers
+pandas
+google.generativeai
+rank-bm25
