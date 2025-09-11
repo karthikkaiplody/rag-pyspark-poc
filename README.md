@@ -55,7 +55,9 @@ python main_query.py "What was the pre-tax income and were there any catastrophe
 python main_query.py "information on product lines and income" -k 2
 ```
 
-Future Enhancements:
- - [ ] Add Hybrid search approach to add more recall and retrieve more relavent PDFs.
+**Future Enhancements::**
+ - [ ] Add script to compare retrieved values against ground truth dataset.
+ - [ ] Add Hybrid search approach to add more recall and retrieve more relavent chunks.
  - [ ] Experiment with the Chunk-Size and Chunk Overlap to see if the performance increases.
  - [ ] Implement and experiment other chunking strategies like Semanting Chunking, Markdown Chunking, LLM Based Chunking
+       
