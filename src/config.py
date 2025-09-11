@@ -8,7 +8,7 @@ RESULTS_CSV_PATH = "./results_comparison.csv"  # The final output file
 TARGET_VARIABLES = ["Share-based compensation", "Net investment income", "Product Line"]
 
 # --- Embedding Model Configuration ---
-EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # 368 dim
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # 384 dim
 
 # --- Text Splitting Configuration ---
 CHUNK_SIZE = 1800
