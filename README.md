@@ -2,6 +2,12 @@
 
 This project is a proof-of-concept for building a Retrieval-Augmented Generation (RAG) pipeline. It uses PySpark for data processing and LangChain for chunking and ChromaDB vector storage, and then queries Google's Gemini Pro model to extract structured information from the retrieved text.
 
+## Architecture Diagram
+
+![RAG Pipeline Architecture](readme-assets/Architecture.png)
+
+
+
 ## Data Configuration
 
 This project is configured to read data from a Parquet file. Before running, please update the data source settings in `src/config.py`:
@@ -36,6 +42,12 @@ Once the database is built, we can run queries against it using the `main_query.
 **Usage:**
 ```bash
 python main_query.py "Query text here"
+```
+**Examples:**
+```bash
+python main_query.py "What was the pre-tax income and were there any catastrophe losses?"
+
+python main_query.py "information on product lines and income" -k 2
 ```
 
 ### 3. Query the Database and Get a Structured Answer
