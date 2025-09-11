@@ -7,7 +7,6 @@ from src.config import (
     CIK_FILTER,
     EMBEDDING_MODEL_NAME,
     PARQUET_FILE_PATH,
-    PROCESSED_CHUNKS_PATH,
 )
 from src.data_loader import get_spark_session, load_parquet_data
 from src.processing import process_documents

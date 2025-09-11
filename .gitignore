@@ -16,3 +16,4 @@ env/
 # IDE settings
 .vscode/
 .idea/
+all_sections.txt
